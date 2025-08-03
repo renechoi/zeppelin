@@ -36,7 +36,7 @@ class FileInterpreterTest {
    * Mock FileInterpreter for testing CommandArgs functionality
    */
   private static class TestFileInterpreter extends FileInterpreter {
-    TestFileInterpreter(Properties property) {
+    public TestFileInterpreter(Properties property) {
       super(property);
     }
 
